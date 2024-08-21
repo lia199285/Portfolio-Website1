@@ -14,12 +14,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&family=Roboto:wght@100&display=swap" rel="stylesheet">
     
     <title>About me</title>
-  </head>
+    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+</head>
   <body id="about-page">
     <!-- For the header -->
 	<header>
 		<!-- For the navigation -->
 		<div class="container">
+        <div class="navtoggle" id="myNavtoggle">
             <a href="index.html">
 			 <img src="img/nathalia_logo.png" class="logo" alt="Nathalia Clara" style="width: 130px;height: 130px;">
             </a>
@@ -31,6 +33,7 @@
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </nav>
+        </div>
 		</div>
 	</header>
 
@@ -53,9 +56,10 @@
                     <div><!--For My Story and Skills and tools sections-->
                         <div class="column col-lg-7"><!--Column one-->
                             <h2>My Story</h2>
-                            <img src="img/small/nathalia_pic@1.jpg" alt="My Image" style="float:right;width:150px;height:150px;"">
 
-                            <p>Hi, I'm Nathalia Clara, a bilingual UX Designer with a diverse background that enriches my approach to design. Originally from Colombia, I moved to the United States at 26 years old, bringing with me a rich cultural perspective and a passion for creating user-centric designs that bridge cultural and linguistic gaps.
+                            <p>
+                                <img src="img/small/nathalia_pic@1.jpg" alt="My Image" style="float:right;width:25%">
+                                Hi, I'm Nathalia Clara, a bilingual UX Designer with a diverse background that enriches my approach to design. Originally from Colombia, I moved to the United States at 26 years old, bringing with me a rich cultural perspective and a passion for creating user-centric designs that bridge cultural and linguistic gaps.
                             </p>
                             <h3>My Experience</h3>
                             <p>Currently, I work in Human Resources, where I leverage my skills in researching, problem-solving, and analytical thinking to improve internal processes and enhance employee experiences. My transition into UX Design was a natural progression, driven by my desire to blend my psychology background with my passion for technology and design.
@@ -122,6 +126,7 @@
         </div>
         
 	</footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
