@@ -20,8 +20,8 @@
     <!-- For the header -->
 	<header>
 		<!-- For the navigation -->
-		<div class="container">
-        <div class="navtoggle" id="myNavtoggle">
+        <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
             <a href="index.html">
 			 <img src="img/nathalia_logo.png" class="logo" alt="Nathalia Clara" style="width: 130px;height: 130px;">
             </a>
@@ -30,7 +30,15 @@
                 <li><a href="index.html">Work</a></li>
                 <li class="active"><a href="about.html">About</a></li>
                 <li><a href="about.html#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                <li>
+                    <a
+                      href="javascript:void(0);"
+                      class="icon"
+                      onclick="menuToggle()"
+                      ><i class="fas fa-bars"></i
+                    ></a>
+                  </li>
               </ul>
             </nav>
         </div>
@@ -126,7 +134,11 @@
         </div>
         
 	</footer>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/scripts.js"></script>
   </body>
 </html>
