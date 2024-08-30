@@ -157,43 +157,17 @@ header .logo {
 }
 
 /*Navigation Styling*/
-
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
+/*
+nav {
+  display: inline-block;
 }
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-.navtoggle.responsive li {
-  display: block;
-  padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
-}
-
-.navtoggle.responsive li:last-child {
-  padding: 0 0 10px;
-}
-
-.navtoggle,
-.navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 10px;
-  top: 30px;
-  font-size: 20px;
-  padding-right: 0;
-}
+*/
 
 nav > ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
 }
+
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -201,8 +175,46 @@ nav > ul > li > a {
   font-weight: 700;
   color: #4a4a4a;
 }
-nav > ul > li > a:active {
-  color: #8a4207;
+
+nav {
+  width: auto;
+  float: right;
+}
+
+/*for the hamburger menu*/
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.navtoggle li:not(:last-child) {
+    display: none;
+  }
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  background-color: #f2f2f2;
+  margin-top: 25px;
+  margin-bottom: -51%;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 #hero {
@@ -340,24 +352,14 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 20px;
-  }
-
-  nav > ul {
-    margin: 1em 0;
-  }
-
   nav > ul > li {
     display: inline-block;
   }
-
+  
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
-
+    
   .navtoggle li:last-child {
     display: none;
   }
