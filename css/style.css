@@ -92,7 +92,7 @@ a:focus {
 .button {
   display: inline-block;
   background-color: #fec521;
-  color: black;
+  color: #000;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
