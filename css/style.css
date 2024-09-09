@@ -54,6 +54,56 @@ h4 {
   font-weight: 400;
 }
 
+img {
+  width: 100%;
+}
+
+#project-title img {
+  max-width: 100%;
+  width: 800px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: right;
+}
+
+#project-usability img {
+  max-width: 100%;
+  width: 600px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px auto;
+}
+
+#project-overviewproblem img {
+  max-width: 100%;
+  width: 300px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px auto;
+}
+
+#project-competitive-analysis img {
+  max-width: 100%;
+  width: 300px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px auto;
+}
+
+#project-impact a img {
+  max-width: 100%;
+  width: 300px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin: 0px auto;
+}
+
+
 
 /*setting images to full-width*/
 img {
